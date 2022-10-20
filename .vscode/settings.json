@@ -16,7 +16,7 @@
   // workbench
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Dracula",
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -27,5 +27,8 @@
 
   // terminal
   "terminal.integrated.fontSize": 16,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
